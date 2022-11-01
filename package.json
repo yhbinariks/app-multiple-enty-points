@@ -1,0 +1,18 @@
+{
+  "name": "multiple-entry-points-app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Yurii Holomb",
+  "license": "ISC",
+  "dependencies": {
+    "appa": "file:appA",
+    "appb": "file:appB",
+    "express": "^4.18.2"
+  }
+}
